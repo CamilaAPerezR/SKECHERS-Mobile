@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background"
+
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="34dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="90dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="SKECHERS"
+
+            android:textSize="42sp"
+
+            android:textColor="@color/text_primary"
+
+            android:fontFamily="@font/poppins_bold"
+
+            android:letterSpacing="0.28"/>
+
+
+        <View
+
+            android:layout_width="85dp"
+
+            android:layout_height="3dp"
+
+            android:layout_marginTop="8dp"
+
+            android:background="@color/premium"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Performance • Style • Innovation"
+
+            android:textSize="15sp"
+
+            android:textColor="@color/text_secondary"
+
+            android:fontFamily="@font/poppins_regular"
+
+            android:layout_marginTop="14dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Bienvenido"
+
+            android:textSize="30sp"
+
+            android:textColor="@color/text_primary"
+
+            android:fontFamily="@font/poppins_bold"
+
+            android:layout_marginTop="70dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Accede con tu cuenta"
+
+            android:textColor="@color/text_secondary"
+
+            android:textSize="15sp"
+
+            android:layout_marginTop="8dp"/>
+
+
+        <EditText
+
+            android:id="@+id/etCorreo"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="58dp"
+
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/input_background"
+
+            android:paddingHorizontal="20dp"
+
+            android:hint="Correo electrónico"
+
+            android:fontFamily="@font/poppins_regular"
+
+            android:inputType="textEmailAddress"/>
+
+
+        <EditText
+
+            android:id="@+id/etPassword"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="58dp"
+
+            android:layout_marginTop="18dp"
+
+            android:background="@drawable/input_background"
+
+            android:paddingHorizontal="20dp"
+
+            android:hint="Contraseña"
+
+            android:fontFamily="@font/poppins_regular"
+
+            android:inputType="textPassword"/>
+
+
+        <Button
+
+            android:id="@+id/btnLogin"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="58dp"
+
+            android:layout_marginTop="35dp"
+
+            android:background="@drawable/button_primary"
+
+            android:text="Ingresar"
+
+            android:textAllCaps="false"
+
+            android:textSize="17sp"
+
+            android:textStyle="bold"
+
+            android:textColor="@color/white"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="28dp"
+
+            android:text="¿Olvidaste tu contraseña?"
+
+            android:textColor="@color/accent"
+
+            android:textSize="14sp"
+
+            android:fontFamily="@font/poppins_regular"/>
+
+    </LinearLayout>
+
+</ScrollView>

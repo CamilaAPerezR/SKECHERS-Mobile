@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Bienvenida -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hola,"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a SKECHERS"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Banner principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_primary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEW COLLECTION"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Performance • Style"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorías"
+            android:textSize="22sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="32dp"/>
+
+        <!-- Tarjetas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRunning"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Running"
+                android:textAllCaps="false"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btnLifestyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:text="Lifestyle"
+                android:textAllCaps="false"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btnTraining"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:text="Training"
+                android:textAllCaps="false"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
