@@ -6,7 +6,7 @@ El objetivo de este proyecto es construir una aplicación móvil que complemente
 
 ## Estado del proyecto
 
-Actualmente el proyecto se encuentra en desarrollo.
+Actualmente el proyecto se encuentra en desarrollo
 
 Hasta el momento se han implementado las siguientes funcionalidades:
 
