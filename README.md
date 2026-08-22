@@ -12,7 +12,7 @@ Hasta el momento se han implementado las siguientes funcionalidades:
 
 - Pantalla Splash.
 - Inicio de sesión.
-- Pantalla principal.
+- Pantalla principal.(HOME)
 - Navegación entre pantallas.
 - Diseño inicial de la interfaz.
 
