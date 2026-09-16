@@ -31,4 +31,4 @@ En las siguientes etapas se realizará la integración con la API REST del proye
 Este repositorio hace parte del proyecto **SKECHERS E-commerce**.
 
 Versión web y backend:
-https://github.com/mila0perez/SKECHERS-E.commerce
+https://github.com/mila0perez/SKECHERS-E.commerce.
