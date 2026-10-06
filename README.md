@@ -1,8 +1,8 @@
 # SKECHERS Mobile
 
-Aplicación móvil desarrollada para Android como parte del proyecto formativo **SKECHERS E-commerce** del programa Tecnología en Análisis y Desarrollo de Software (ADSO) del SENA
+Aplicación móvil desarrollada para Android como parte del proyecto formativo **SKECHERS E-commerce** del programa Tecnología en Análisis y Desarrollo de Software (ADSO) del SENA.
 
-El objetivo de este proyecto es construir una aplicación móvil que complemente la versión web del sistema, ofreciendo una interfaz sencilla e intuitiva para los usuarios
+El objetivo de este proyecto es construir una aplicación móvil que complemente la versión web del sistema, ofreciendo una interfaz sencilla e intuitiva para los usuarios.
 
 ## Estado del proyecto
 
